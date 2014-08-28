@@ -5,10 +5,15 @@ This is a mod pack that is run on a private, whitelisted Minecraft server. It is
 
 ## Installation
 #### MultiMC (recommended)
-1. Extract release archive into your MultiMC instance folder
-2. In MultiMC, refresh your instance list
+1. The MultiMC instance is contained in the "OlympusMC_\<version\>.zip" archive.   
+2. The content of this archive should be extracted into a new folder in your MultiMC instances.\*   
+ \* *In Windows, this is located at "%HOMEPATH%\\MultiMC\\instances" by default.*   
 
-#### Minecraft
+    *Tip: Moving the zip file into the instances folder makes the default extraction location correct.*
+3. In MultiMC, Click on the green icon to reload the instance list and make the new instance visible.   
+4. Select this new instance and click "Play" to launch Minecraft.   
+
+#### Minecraft (w.i.p.)
 1. Run the Forge installer and follow its instructions.
 2. Copy the 'mods' and 'config' folders into your minecraft folder
 
