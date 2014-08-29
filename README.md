@@ -1,19 +1,31 @@
 Minecraft Olympus Mod Pack
 ==============================
-
 This is a mod pack that is run on a private, whitelisted Minecraft server. It is provided here for ease of access for its members, with the side benefit of allowing any interested parties to host servers of their own using this mod pack. I hope that it will be enjoyed by both visitors and members alike! If you plan to redistribute this mod pack, however, please be sure to comply with all the wishes of each mod's author regarding redistribution, just as I have. Installation instructions, a list of included mods, and proper credits for all mod developers can be found here.
 
 ## Installation
-#### MultiMC (recommended)
-1. The MultiMC instance is contained in the "OlympusMC_\<version\>.zip" archive.   
-2. The content of this archive should be extracted into a new folder in your MultiMC instances.\*   
- \* *In Windows, this is located at "%HOMEPATH%\\MultiMC\\instances" by default.*   
+This mod pack is designed to be run using MultiMC, an excellent tool for managing multiple versions of Minecraft. If you do not have MultiMC, you can download it [here](http://multimc.org/).
 
-    *Tip: Moving the zip file into the instances folder makes the default extraction location correct.*
-3. In MultiMC, Click on the green icon to reload the instance list and make the new instance visible.   
-4. Select this new instance and click "Play" to launch Minecraft.   
+#### MultiMC (recommended)
+TL:DR - Clone this repo into your MultiMC instances folder. Yes, That's it.
+
+1. Start a git shell.
+2. `cd C:\Users\{username}\MultiMC\instances`
+3. `git clone https://github.com/faceles-saint/olympus-minecraft`
+4. In MultiMC, click the green icon to reload your instance list.
+5. Select the new instance and click "Play" to launch Minecraft.
+
+*Replace* {username} *with your actual username. These instructions assume a default installation of MultiMC, so step 2 will change based on where MultiMC is actually installed.*
+
+#### Updates
+If you installed this mod pack using the MuliMC instructions, updates are a simple matter of pulling any changes down from the repository on GitHub.
+
+1. Start a git shell.
+2. ``cd C:\Users\{username}\MultiMC\instances\olympus-minecraft`
+3. `git pull`
 
 #### Minecraft (w.i.p.)
+While this mod pack will certainly run using the official installer, you really should just download MultiMC.
+
 1. Run the Forge installer and follow its instructions.
 2. Copy the 'mods' and 'config' folders into your minecraft folder
 
