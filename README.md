@@ -20,11 +20,11 @@ TL:DR - Clone this repo into your MultiMC instances folder. Yes, That's it.
 If you installed this mod pack using the MuliMC instructions, updates are a simple matter of pulling any changes down from the repository on GitHub.
 
 1. Start a git shell.
-2. ``cd ~/MultiMC/instances/olympus-minecraft`
+2. `cd ~/MultiMC/instances/olympus-minecraft`
 3. `git pull`
 
-#### Minecraft (w.i.p.)
-While this mod pack will certainly run using the official installer, you really should just download MultiMC. Updates will also have to be performed manually if you don't use MultiMC.
+#### Minecraft
+While this mod pack will certainly run using the official Minecraft launcher, you really should just download MultiMC. If you insist on installing this way, you are on your own. Updates will also have to be performed manually if you don't use MultiMC.
 
 1. Run the Forge installer and follow its instructions.
 2. Copy the 'mods' and 'config' folders into your minecraft folder
