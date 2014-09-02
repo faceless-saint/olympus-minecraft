@@ -17,7 +17,7 @@ README.md
 # Minecraft client files
 # ===========================
 !/minecraft
-/*
+/minecraft/*
 
 !/minecraft/config
 !/minecraft/mods
@@ -26,7 +26,7 @@ README.md
 # Minecraft server files
 # ===========================
 !/server
-/*
+/server/*
 
 !/server/config
 !/server/mods
