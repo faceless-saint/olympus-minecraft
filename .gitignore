@@ -40,7 +40,6 @@ Icon
 # =========================
 /natives
 
-# Ignore local script
+# Ignore local scripts
 # ========================
-/update-links.sh
-/serverModBlacklist.dat
+/run
