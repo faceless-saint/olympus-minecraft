@@ -1,45 +1,33 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
 
-# Folder config file
-Desktop.ini
+# Exclude unless listed here
+# ===========================
+/*
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# Git repository information
+# ===========================
+.gitignore
+.gitattributes
+README.md
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# MultiMC instance files
+# ===========================
+!/instance.cfg
+!/patches
 
-# =========================
-# Operating System Files
-# =========================
+# Minecraft client files
+# ===========================
+!/minecraft
+/*
 
-# OSX
-# =========================
+!/minecraft/config
+!/minecraft/mods
+!/minecraft/icon.png
 
-.DS_Store
-.AppleDouble
-.LSOverride
+# Minecraft server files
+# ===========================
+!/server
+/*
 
-# Icon must ends with two \r.
-Icon
-
-
-# Thumbnails
-._*
-
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
-
-# Strip local MultiMC data
-# =========================
-/natives
-
-# Ignore local scripts
-# ========================
-/run
+!/server/config
+!/server/mods
+!/server/forge-1.7.10-*
