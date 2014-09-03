@@ -21,7 +21,9 @@ If you installed this mod pack using the MuliMC instructions, updates are a simp
 
 1. Start a git shell.
 2. `cd ~/MultiMC/instances/olympus-minecraft`
-3. `git pull`
+3. `git fetch orgin master`
+4. `git reset --hard FETCH_HEAD`
+5. `git clean -dn`
 
 #### Minecraft
 While this mod pack will certainly run using the official Minecraft launcher, you really should just download MultiMC. If you insist on installing this way, you are on your own. Updates will also have to be performed manually if you don't use MultiMC.
