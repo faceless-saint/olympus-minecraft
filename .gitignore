@@ -5,9 +5,9 @@
 
 # Git repository information
 # ===========================
-.gitignore
-.gitattributes
-README.md
+!/.gitignore
+!/.gitattributes
+!/README.md
 
 # MultiMC instance files
 # ===========================
