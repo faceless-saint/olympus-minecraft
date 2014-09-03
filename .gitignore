@@ -23,6 +23,8 @@ README.md
 !/minecraft/mods
 !/minecraft/icon.png
 
+/minecraft/mods/VoxelMods
+
 # Minecraft server files
 # ===========================
 !/server
