@@ -83,7 +83,7 @@ While this mod pack will certainly run using the official Minecraft launcher, yo
 | Thaumic Tinkerer        | 2.5-155               | [Pixlepix](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1289299)
 | Thermal Expansion       | 4.0.0B5-13            | [TeamCoFH](http://teamcofh.com/)
 | Thermal Foundation      | 1.0.0B3-8             | [TeamCoFH](http://teamcofh.com/)
-| Translocaor             | 1.1.1.9               | [Chickenbones](http://www.chickenbones.craftsaddle.org/Pages/links.html)
+| Translocator            | 1.1.1.9               | [Chickenbones](http://www.chickenbones.craftsaddle.org/Pages/links.html)
 | Twilight Forest         | 2.2.3                 | [Benimatic](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1276258)
 | Waila                   | 1.5.3                 | [ProfMobius](http://minecraft.curseforge.com/mc-mods/73488)
 
