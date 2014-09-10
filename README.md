@@ -3,31 +3,43 @@ Olympus Mod Pack for Minecraft
 This is a mod pack that is run on a private, whitelisted Minecraft server. It is provided here for ease of access for its members, with the side benefit of allowing any interested parties to host servers of their own using this mod pack. I hope that it will be enjoyed by both visitors and members alike! If you plan to redistribute this mod pack, however, please be sure to comply with all the wishes of each mod's author regarding redistribution, just as I have. Installation instructions, a list of included mods, and proper credits for all mod developers can be found here.
 
 ## Installation
-This mod pack is designed to be run using MultiMC, an excellent tool for managing multiple versions of Minecraft. If you do not have MultiMC, you can download it [here](http://multimc.org/). You also need to have a git shell installed. For Windows, I recommend installing the GitHub client.
+This mod pack is designed to be run using MultiMC, an excellent tool for managing multiple versions of Minecraft. If you do not have MultiMC, you can download it [here](http://multimc.org/). You also need to have a git shell installed. For Windows, I recommend installing [msysgit](http://msysgit.github.io/).  
+
+*When installing git on Windows, remember to enable usage on the Windows command prompt! This is necessary for the update script `update.bat` to function correctly. To start a git shell on Windows, right-click in Windows Explorer or on your desktop and select "Git Bash" from the menu.*
 
 #### MultiMC (recommended)
 TL:DR - Clone this repo into your MultiMC instances folder. Yes, That's it.
 
-*These instructions assume a default installation of MultiMC, so step 2 will change based on where MultiMC is actually installed. This applies to both installation and update procedures*
+*These instructions assume a default installation of MultiMC, so step 2 will change based on where MultiMC is actually installed. This applies to both installation and update procedures.*
 
-1. Start a git shell.
+1. Start a git shell
 2. `cd ~/MultiMC/instances`
 3. `git clone https://github.com/faceles-saint/olympus-minecraft`
-4. In MultiMC, click the green icon to reload your instance list.
-5. Select the new instance and click "Play" to launch Minecraft.
+4. In MultiMC, click the green icon to reload your instance list
+5. Select the new instance and click "Play" to launch Minecraft
 
 #### Updates
 If you installed this mod pack using the MuliMC instructions, updates are a simple matter of pulling any changes down from the repository on GitHub.
 
-1. Start a git shell.
-2. `cd ~/MultiMC/instances/olympus-minecraft`
-3. `./gitsync.sh .`
+_Windows_
+  1. Open the Olympus Modpack instance folder (click "Instance Folder" in MultiMC)
+  2. Run `update.bat`
+
+_Universal_
+  1. Start a git shell
+  2. `cd ~/MultiMC/instances/olympus-minecraft`
+  3. `./gitsync.sh .`
 
 #### Minecraft
 While this mod pack will certainly run using the official Minecraft launcher, you really should just download MultiMC. If you insist on installing this way, you are on your own. Updates will also have to be performed manually if you don't use MultiMC.
 
-1. Run the Forge installer and follow its instructions.
-2. Copy the 'mods' and 'config' folders into your minecraft folder
+1. Create a new profile using Minecraft version 1.7.10
+2. Run Minecraft using this profile at least once
+3. Run the Forge installer (located in the "server" folder) and follow its instructions
+4. Copy the 'mods' and 'config' folders into your minecraft folder
+5. Lauch Minecraft using the "Forge" profile to use the mod pack
+
+*After installation, the 1.7.10 profile created in step 1 can be deleted.*
 
 ## Mod Pack Information
 #### Version Information
