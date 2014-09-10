@@ -70,6 +70,7 @@ While this mod pack will certainly run using the official Minecraft launcher, yo
 | Inventory Tweaks        | 1.59-dev-152          | [Kobata](http://inventory-tweaks.readthedocs.org/en/latest/)
 | Iron Chests             | 6.0.51.734            | [cpw](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1280827)
 | Jabba                   | 1.1.4                 | [ProfMobius](http://minecraft.curseforge.com/mc-mods/73510)
+| Liquid XP               | 59.0.0                | [immibis](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1281065)
 | Mantle                  | 0.3.0                 | [mDiyo](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1287648)
 | Mekanism                | 7.1.0.92              | [aidancbrady](http://aidancbrady.com/mekanism/)
 | NEI Plugins Unofficial  | 1.1.0.8               | [Tonius](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1294687)
