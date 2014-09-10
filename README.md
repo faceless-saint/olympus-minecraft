@@ -28,7 +28,7 @@ _Windows_
 _Universal_
   1. Start a git shell
   2. `cd ~/MultiMC/instances/olympus-minecraft`
-  3. `./gitsync.sh .`
+  3. `git fetch origin master && git reset --hard FETCH_HEAD`
 
 #### Minecraft
 While this mod pack will certainly run using the official Minecraft launcher, you really should just download MultiMC. If you insist on installing this way, you are on your own. Updates will also have to be performed manually if you don't use MultiMC.
