@@ -8,8 +8,15 @@
 !/.gitignore
 !/.gitattributes
 !/README.md
-!/gitsync.sh
 !/update.bat
+
+# Minecraft Forge installer
+# ===========================
+!/forge-1.7.10-*
+
+# Update automation scripts
+# ===========================
+!/util
 
 # MultiMC instance files
 # ===========================
@@ -42,12 +49,3 @@
 /minecraft/mods/MobiusCore-*
 /minecraft/config/MapWriter*
 /minecraft/config/Opis.cfg
-
-# Minecraft server files
-# ===========================
-!/server
-/server/*
-
-!/server/config
-!/server/mods
-!/server/forge-1.7.10-*
