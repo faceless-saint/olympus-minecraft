@@ -21,9 +21,9 @@
 #   [branch] defaults to "master"
 
 # Exit codes:
-#   0  - normal (success)
-#   1  - git failure
-#   -1 - improper usage
+#   0 - normal (success)
+#   1 - improper usage
+#   2 - git failure
 
 #location of git binary on this system
 GIT_CMD="/usr/bin/git"
@@ -44,7 +44,7 @@ case $#
 	*)
 		echo "Err: invalid arguments"
 		echo "  usage: gitsync.sh <dir> [branch]"
-		exit -1
+		exit 1
 	;;
 esac
 
@@ -53,16 +53,16 @@ if [ -d ${DIR} ]; then
 	cd ${DIR}
 else
 	echo "Err: target does not exist"
-	exit -1
+	exit 1
 fi
 
 ## Pull down latest remote status
 if [ -d .git ]; then
-	$GIT_CMD fetch origin ${BRANCH} or exit 1
-	$GIT_CMD reset --hard FETCH_HEAD or exit 1
+	$GIT_CMD fetch origin ${BRANCH} or exit 2
+	$GIT_CMD reset --hard FETCH_HEAD or exit 2
 else
 	echo "Err: target is not a git repository"
-	exit -1
+	exit 1
 fi
 
 echo "Done!"
