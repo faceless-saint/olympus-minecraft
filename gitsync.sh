@@ -16,6 +16,15 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 ############################################################################
 
+# Usage: "gitsync.sh <directory> [branch]"
+#   <directory> must be a git repository
+#   [branch] defaults to "master"
+
+# Exit codes:
+#   0  - normal (success)
+#   1  - git failure
+#   -1 - improper usage
+
 #location of git binary on this system
 GIT_CMD="/usr/bin/git"
 
@@ -49,8 +58,8 @@ fi
 
 ## Pull down latest remote status
 if [ -d .git ]; then
-	$GIT_CMD fetch origin ${BRANCH}
-	$GIT_CMD reset --hard FETCH_HEAD
+	$GIT_CMD fetch origin ${BRANCH} or exit 1
+	$GIT_CMD reset --hard FETCH_HEAD or exit 1
 else
 	echo "Err: target is not a git repository"
 	exit -1
