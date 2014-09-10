@@ -25,6 +25,8 @@
 
 /minecraft/mods/carpentersblocks
 /minecraft/mods/VoxelMods
+/minecraft/mods/Opis-*
+/minecraft/mods/MobiusCore-*
 
 # Minecraft server files
 # ===========================
