@@ -15,11 +15,11 @@ GIT_POS=""$SERVER_POS"/git"
 BLACKLIST=""$GIT_POS"/util/blacklist.dat"
 
 #stop the server
-#$MINECRAFT_CMD stop
+$MINECRAFT_CMD stop
 
 #run update scripts
 "$GIT_POS"/util/gitupdate.sh "$GIT_POS"
 "$GIT_POS"/util/linkupdate.sh "$SERVER_POS"/mods "$GIT_POS"/minecraft/mods "$BLACKLIST"
 
 #start the server
-#$MINECRAFT_CMD start
+$MINECRAFT_CMD start
