@@ -47,6 +47,7 @@ While this mod pack will certainly run using the official Minecraft launcher, yo
 
 |       Server Mods       |        Version        |  Author  |
 |-------------------------|-----------------------|:--------:|
+| Advanced Solar Panels   | 3.5.1                 | [SeNtiMeL](http://forum.industrial-craft.net/index.php?page=Thread&threadID=3291)
 | Applied Energistics     | 2-rv1-stable-10       | [AlgorithmX2](http://ae2.ae-mod.info)
 | Backpacks               | 2.0.0                 | [Eydamos](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1286124)
 | BiblioCraft             | v1.7.5                | [Joseph "Nuchaz" Sinclair](http://www.bibliocraftmod.com/)
