@@ -50,7 +50,7 @@ else
 	exit 1
 fi
 
-## Temporarily remove this script from git
+## Temporarily stop tracking this script in git
 echo "$0" >> .gitignore
 
 ## Pull down latest remote status
