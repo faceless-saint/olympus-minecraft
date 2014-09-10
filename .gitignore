@@ -8,7 +8,7 @@
 !/.gitignore
 !/.gitattributes
 !/README.md
-!/cron.sh
+!/gitsync.sh
 
 # MultiMC instance files
 # ===========================
