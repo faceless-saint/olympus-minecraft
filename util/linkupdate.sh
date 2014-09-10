@@ -77,7 +77,7 @@ if [ -f "${blacklist}" ]; then
     while read i
     do
         if [ -e "$destination/$i" ]; then
-            rm -qrf "$destination/$i"
+            rm -rf "$destination/$i"
         fi
     done < $blacklist
     echo "Done."
