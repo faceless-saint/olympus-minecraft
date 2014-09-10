@@ -25,6 +25,14 @@
 !/minecraft/mods
 !/minecraft/icon.png
 
+#exclude client-side configuration
+/minecraft/config/NEI/client.cfg
+/minecraft/config/cofh/Client.cfg
+/minecraft/config/DamageIndicatorsMod.cfg
+/minecraft/config/DIAdvancedCompatibility.cfg
+/minecraft/config/iChunUtil*
+/minecraft/config/InvTweaks*
+
 #exclude client mod cache
 /minecraft/mods/carpentersblocks
 /minecraft/mods/VoxelMods
