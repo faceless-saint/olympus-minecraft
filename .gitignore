@@ -9,6 +9,7 @@
 !/.gitattributes
 !/README.md
 !/gitsync.sh
+!/update.bat
 
 # MultiMC instance files
 # ===========================
