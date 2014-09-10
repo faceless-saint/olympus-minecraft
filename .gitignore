@@ -23,10 +23,15 @@
 !/minecraft/mods
 !/minecraft/icon.png
 
+#exclude client mod cache
 /minecraft/mods/carpentersblocks
 /minecraft/mods/VoxelMods
+
+#exclude Opis
 /minecraft/mods/Opis-*
 /minecraft/mods/MobiusCore-*
+/minecraft/config/MapWriter*
+/minecraft/config/Opis.cfg
 
 # Minecraft server files
 # ===========================
