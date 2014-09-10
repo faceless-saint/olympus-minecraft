@@ -25,12 +25,12 @@
 #parse script arguments
 case $# in
     1)
-        echo "Syncing git repository..."
+        echo "Syncing git repository... "
         DIR="$1"
         BRANCH="master"
         ;;        
     2)
-        echo "Syncing git repository using branch \"$2\"..."
+        echo "Syncing git repository with branch \"$2\"... "
         DIR="$1"
         BRANCH="$2"
         ;;
@@ -54,12 +54,16 @@ echo "$0" >> .gitignore
 
 #pull down latest remote status
 if [ -d .git ]; then
+    echo -n "Fetching latest version from server... "
     git fetch origin $BRANCH
+    echo "Done."
+
+    echo -n "Resetting local copy... "
     git reset --hard FETCH_HEAD
+    echo "Done."
 else
     echo "Err: target is not a git repository"
     exit 1
 fi
 
-echo "Done!"
 exit 0

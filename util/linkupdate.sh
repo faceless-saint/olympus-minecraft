@@ -53,35 +53,37 @@ root_dir=`pwd`
 cd $destination
 
 #clean old links from destination
-echo "Cleaning destination..."
+echo -n "Cleaning destination... "
 for i in *; do
     if [ -h "$i" ]; then
-        rm "$i"
+        rm -rf "$i"
     fi
 done
+echo "Done."
 
 #link files from source to destination
-echo "Generating links..."
+echo -n "Generating links... "
 for i in "${source}"/*; do
     ln -s "$i" `basename "$i"`
 done
+echo "Done."
 
 #return to local root directory
 cd $root_dir
 
 #remove blacklisted items
 if [ -f "${blacklist}" ]; then
-    echo "Parsing blacklist..."
+    echo -n "Parsing blacklist... "
     while read i
     do
         if [ -e "$destination/$i" ]; then
-            rm "$destination/$i"
+            rm -qrf "$destination/$i"
         fi
     done < $blacklist
+    echo "Done."
 fi
 
 #restore old IFS
 IFS=$IFS_backup
 
-echo "Done!"
 exit 0
