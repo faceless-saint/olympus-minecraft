@@ -56,7 +56,7 @@ cd $destination
 echo -n "Cleaning destination... "
 for i in *; do
     if [ -h "$i" ]; then
-        rm -rf "$i"
+        rm "$i"
     fi
 done
 echo "Done."
@@ -78,8 +78,8 @@ if [ -f "${blacklist}" ]; then
     echo -n "Parsing blacklist... "
     while read i
     do
-        if [ -h "$destination/$i" ]; then
-            rm "$destination/$i"
+        if [ -e "$destination/$i" ]; then
+            rm -rf "$destination/$i"
         fi
     done < $blacklist
     echo "Done."
