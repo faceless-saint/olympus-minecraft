@@ -64,7 +64,7 @@ echo "Done."
 #link files from source to destination
 echo -n "Generating links... "
 for i in "${source}"/*; do
-    if [ ! -e "$i" ]; then
+    if [ ! -e `basename "$i"` ]; then
         ln -s "$i" `basename "$i"`
     fi
 done
@@ -78,8 +78,8 @@ if [ -f "${blacklist}" ]; then
     echo -n "Parsing blacklist... "
     while read i
     do
-        if [ -e "$destination/$i" ]; then
-            rm -rf "$destination/$i"
+        if [ -e "$destination"/"$i" ]; then
+            rm -rf "$destination"/"$i"
         fi
     done < $blacklist
     echo "Done."
