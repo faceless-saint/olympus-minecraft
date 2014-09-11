@@ -21,5 +21,10 @@ $MINECRAFT_CMD stop
 "$GIT_POS"/util/gitupdate.sh "$GIT_POS"
 "$GIT_POS"/util/linkupdate.sh "$SERVER_POS"/mods "$GIT_POS"/minecraft/mods "$BLACKLIST"
 
+#ensure proper file ownership
+if [ $USER == "root" ]; then
+  chown -R minecraft:minecraft /opt/msm
+fi
+
 #start the server
 $MINECRAFT_CMD start
