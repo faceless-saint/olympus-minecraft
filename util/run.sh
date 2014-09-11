@@ -35,13 +35,13 @@ SERVER_POS="/opt/msm/servers/"$SERVER_NAME""
 GIT_POS=""$SERVER_POS"/git"
 
 #minecraft server manager
-MINECRAFT_CMD="/usr/local/bin/msm "$SERVER_NAME""
+MINECRAFT_CMD="/usr/local/bin/msm"
 
 #location of blacklist
 BLACKLIST=""$GIT_POS"/util/blacklist.dat"
 
 #stop the server
-"$MINECRAFT_CMD" stop
+"$MINECRAFT_CMD" "$SERVER_NAME" stop
 
 #run update scripts
 "$GIT_POS"/util/gitupdate.sh "$GIT_POS" "$BRANCH"
@@ -54,4 +54,4 @@ if [ $USER == "root" ]; then
 fi
 
 #start the server
-"$MINECRAFT_CMD" start
+"$MINECRAFT_CMD" "$SERVER_NAME" start
