@@ -45,7 +45,10 @@
 /minecraft/mods/VoxelMods
 
 #exclude Opis
-/minecraft/mods/Opis-*
-/minecraft/mods/MobiusCore-*
+/minecraft/mods/Opis*
+/minecraft/mods/MobiusCore*
 /minecraft/config/MapWriter*
 /minecraft/config/Opis.cfg
+
+#exclude OptiFine
+/minecraft/mods/OptiFine*
