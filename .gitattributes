@@ -22,4 +22,5 @@
 *.RTF	 diff=astextplain
 
 # branches use separate MultiMC instance settings
-instance.cfg merge=ours
+/instance.cfg merge=ours
+/minecraft/icon.png merge=ours
