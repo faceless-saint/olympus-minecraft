@@ -43,7 +43,7 @@ While this mod pack will certainly run using the official Minecraft launcher, yo
 
 ## Mod Pack Information
 #### Version Information
-| Mod pack:      | 2.0rc3
+| Mod pack:      | 2.1.0
 |----------------|-----------------|
 | Minecraft      | 1.7.10   
 | Forge          | 10.13.0.1208
@@ -62,7 +62,7 @@ While this mod pack will certainly run using the official Minecraft launcher, yo
 | Advanced Solar Panels   | 3.5.1                 | [SeNtiMeL](http://forum.industrial-craft.net/index.php?page=Thread&threadID=3291)
 | Applied Energistics     | 2-rv1-stable-10       | [AlgorithmX2](http://ae2.ae-mod.info)
 | Backpacks               | 2.0.0                 | [Eydamos](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1286124)
-| BiblioCraft             | v1.7.5                | [Joseph "Nuchaz" Sinclair](http://www.bibliocraftmod.com/)
+| BiblioCraft             | v1.8.1                | [Joseph "Nuchaz" Sinclair](http://www.bibliocraftmod.com/)
 | BiblioWoods             | 1.7                   | [Joseph "Nuchaz" Sinclair](http://www.bibliocraftmod.com/?page_id=50)
 | Biomes O' Plenty        | 2.1.0.978             | [Glitchfiend](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1286162)
 | Blood Magic             | v1.1.0                | [WayofTIme](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1290532)
@@ -89,7 +89,7 @@ While this mod pack will certainly run using the official Minecraft launcher, yo
 | Not Enough Items        | 1.0.3-51              | [Chickenbones](http://www.chickenbones.craftsaddle.org/Pages/links.html)
 | Open Components         | 0.2.0.17              | [Sangar](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1293018)
 | Open Computers          | 1.3.4.63              | [Sangar](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1293018)
-| Project Red             | 4.4.8.47              | [MrTJP & Chickenbones](http://projectredwiki.com/wiki/Main_Page)
+| Project Red             | 4.4.9.48              | [MrTJP & Chickenbones](http://projectredwiki.com/wiki/Main_Page)
 | SG Craft                | 1.3.3                 | [Greg Ewing](http://www.cosc.canterbury.ac.nz/greg.ewing/minecraft/mods/SGCraft/)
 | Tinkers' Construct      | 1.6.0d39              | [mDiyo](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1287648)
 | Thaumcraft              | 4.2.0.1               | [Azanor](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1292130)
