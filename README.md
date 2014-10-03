@@ -14,7 +14,7 @@ TL:DR - Clone this repo into your MultiMC instances folder. Yes, That's it.
 
 1. Start a git shell
 2. `cd ~/MultiMC/instances`
-3. `git clone https://github.com/faceles-saint/olympus-minecraft`
+3. `git clone https://github.com/faceless-saint/olympus-minecraft`
 4. In MultiMC, click the green icon to reload your instance list
 5. Select the new instance and click "Play" to launch Minecraft
 
