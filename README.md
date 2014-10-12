@@ -1,4 +1,4 @@
-Olympus Mod Pack for Minecraft
+OlympusPack for Minecraft
 ==============================
 This is a mod pack that is run on a private, whitelisted Minecraft server. It is provided here for ease of access for its members, with the side benefit of allowing any interested parties to host servers of their own using this mod pack. I hope that it will be enjoyed by both visitors and members alike! If you plan to redistribute this mod pack, however, please be sure to comply with all the wishes of each mod's author regarding redistribution, just as I have. Installation instructions, a list of included mods, and proper credits for all mod developers can be found here.
 
