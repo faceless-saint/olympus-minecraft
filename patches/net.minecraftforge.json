@@ -80,16 +80,16 @@
         },
         {
             "insert": "prepend",
-            "name": "org.ow2.asm:asm-all:4.1"
+            "name": "org.ow2.asm:asm-all:5.0.3"
         },
         {
             "insert": "prepend",
-            "name": "net.minecraft:launchwrapper:1.9"
+            "name": "net.minecraft:launchwrapper:1.11"
         },
         {
             "MMC-depend": "hard",
             "insert": "prepend",
-            "name": "net.minecraftforge:forge:1.7.10-10.13.0.1208:universal",
+            "name": "net.minecraftforge:forge:1.7.10-10.13.1.1225:universal",
             "url": "http://files.minecraftforge.net/maven/"
         }
     ],
@@ -102,5 +102,5 @@
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userProperties ${user_properties} --userType ${user_type} ",
     "name": "Forge",
     "order": 5,
-    "version": "10.13.0.1208"
+    "version": "10.13.1.1225"
 }
