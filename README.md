@@ -43,7 +43,7 @@ While this mod pack will certainly run using the official Minecraft launcher, yo
 
 ## Mod Pack Information
 #### Version Information
-| Mod pack:      | 2.3.0-dev0
+| Mod pack:      | 2.2.1
 |----------------|-----------------|
 | Minecraft      | 1.7.10   
 | Forge          | 10.13.0.1225
