@@ -40,6 +40,8 @@
 /minecraft/config/InvTweaks*
 
 #exclude client mod cache
+/minecraft/mods/1.7.10
+/minecraft/mods/ic2
 /minecraft/mods/carpentersblocks
 /minecraft/mods/VoxelMods
 
