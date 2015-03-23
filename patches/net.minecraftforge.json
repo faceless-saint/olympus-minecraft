@@ -89,7 +89,7 @@
         {
             "MMC-depend": "hard",
             "insert": "prepend",
-            "name": "net.minecraftforge:forge:1.7.10-10.13.1.1225:universal",
+            "name": "net.minecraftforge:forge:1.7.10-10.13.2.1291:universal",
             "url": "http://files.minecraftforge.net/maven/"
         }
     ],
@@ -102,5 +102,5 @@
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userProperties ${user_properties} --userType ${user_type} ",
     "name": "Forge",
     "order": 5,
-    "version": "10.13.1.1225"
+    "version": "10.13.2.1291"
 }
