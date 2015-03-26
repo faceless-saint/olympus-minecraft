@@ -9,9 +9,10 @@
 !/README.md
 !/update.bat
 
-# Minecraft Forge installer
+# Minecraft Forge and Liteloader installers
 # ===========================
-!/forge-1.7.10-*
+!/forge-1.7.10-*-installer.jar
+!/liteloader-installer-1.7.10-*
 
 # Update automation scripts
 # ===========================
