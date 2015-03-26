@@ -1,16 +1,17 @@
 {
     "+libraries": [
         {
-            "name": "net.minecraft:launchwrapper:1.9"
+            "name": "net.minecraft:launchwrapper:1.11"
         },
         {
-            "name": "org.ow2.asm:asm-all:4.1"
+            "name": "org.ow2.asm:asm-all:5.0.3",
+            "url": "http://repo.maven.apache.org/maven2/"
         },
         {
-            "MMC-absoluteUrl": "http://dl.liteloader.com/versions/com/mumfrey/liteloader/1.7.10/liteloader-1.7.10_03.jar",
+            "MMC-absoluteUrl": "http://dl.liteloader.com/versions/com/mumfrey/liteloader/1.7.10/liteloader-1.7.10_04.jar",
             "MMC-depend": "hard",
             "insert": "prepend",
-            "name": "com.mumfrey:liteloader:1.7.10_03"
+            "name": "com.mumfrey:liteloader:1.7.10_04"
         }
     ],
     "+tweakers": [
@@ -21,5 +22,5 @@
     "mcVersion": "1.7.10",
     "name": "LiteLoader",
     "order": 10,
-    "version": "1.7.10_03"
+    "version": "1.7.10_04"
 }
