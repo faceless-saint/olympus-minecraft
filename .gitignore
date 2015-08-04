@@ -9,6 +9,10 @@
 !/README.md
 !/update.bat
 
+# Docker information
+!/Dockerfile
+!/.dockerignore
+
 # Minecraft Forge and Liteloader installers
 # ===========================
 !/forge-1.7.10-*-installer.jar
